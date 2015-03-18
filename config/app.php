@@ -98,6 +98,7 @@ return [
 	'providers' => [
 
 		'Illuminate\Filesystem\FilesystemServiceProvider',
+        'Illuminate\Translation\TranslationServiceProvider',
         'Consolle\Foundation\ServiceProvider',
 	],
 

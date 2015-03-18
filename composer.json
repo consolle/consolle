@@ -20,5 +20,5 @@
             "app"
         ]
 	},
-    "bin": ["console"]
+    "bin": ["artisan"]
 }
