@@ -4,7 +4,6 @@
 	"keywords": ["consolle","php", "netforce"],
 	"license": "GPL v.3",
 	"type": "library",
-
     "authors": [
         {
             "name": "Bruno Gonçalves",
