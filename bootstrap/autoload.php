@@ -21,5 +21,5 @@ if ($loader !== false)
     return $loader;
 
 // Shor message
-echo 'You must set up the project dependencies, run the following commands:' . PHP_EOL . 'php console.phar install' . PHP_EOL;
+echo 'You must set up the project dependencies, run the following commands:' . PHP_EOL . 'php consolle.phar install' . PHP_EOL;
 exit(1);

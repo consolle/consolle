@@ -6,8 +6,6 @@ if (PHP_SAPI !== 'cli')
 
 require __DIR__ . '/bootstrap/autoload.php';
 
-use Consolle\Application;
-
 error_reporting(-1);
 
 if (function_exists('ini_set'))
@@ -40,6 +38,8 @@ if (function_exists('ini_set'))
     unset($memoryInBytes, $memoryLimit);
 }
 
+$app = require_once __DIR__ . '/bootstrap/app.php';
+
 // Run the command application
-$application = new Application();
-$application->run();
+$kernel = $app->make('Consolle\Contracts\Kernel');
+$kernel->run();
