@@ -1,1 +1,2 @@
 # The Consolle
+[![Latest Stable Version](https://poser.pugx.org/consolle/consolle/v/stable.svg)](https://packagist.org/packages/consolle/consolle) [![Total Downloads](https://poser.pugx.org/consolle/consolle/downloads.svg)](https://packagist.org/packages/consolle/consolle) [![Latest Unstable Version](https://poser.pugx.org/consolle/consolle/v/unstable.svg)](https://packagist.org/packages/consolle/consolle) [![License](https://poser.pugx.org/consolle/consolle/license.svg)](https://packagist.org/packages/consolle/consolle)
