@@ -4,6 +4,8 @@
 if (PHP_SAPI !== 'cli')
     echo 'Warning: Consolle should be invoked via the CLI version of PHP, not the ' . PHP_SAPI . ' SAPI' . PHP_EOL;
 
+define('__APP_BASE_PATH__', __DIR__);
+
 require __DIR__ . '/bootstrap/autoload.php';
 
 error_reporting(-1);

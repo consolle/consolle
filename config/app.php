@@ -123,4 +123,8 @@ return [
 		'Lang'      => 'Illuminate\Support\Facades\Lang',
 	],
 
+    'commands' => [
+        //'teste' => 'App\Commands\TesteCommand',
+    ],
+
 ];

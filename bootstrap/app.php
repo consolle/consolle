@@ -1,6 +1,5 @@
 <?php
-
-$app = new Consolle\Foundation\Application(realpath(__DIR__.'/../'));
+$app = new Consolle\Foundation\Application(__APP_BASE_PATH__);
 
 /*
 |--------------------------------------------------------------------------
