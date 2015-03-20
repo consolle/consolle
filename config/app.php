@@ -97,7 +97,8 @@ return [
 
 	'providers' => [
 
-		'Illuminate\Filesystem\FilesystemServiceProvider',
+        'Illuminate\Cache\CacheServiceProvider',
+        'Illuminate\Filesystem\FilesystemServiceProvider',
         'Illuminate\Translation\TranslationServiceProvider',
         'Consolle\Foundation\ServiceProvider',
 	],
@@ -120,11 +121,12 @@ return [
 		'Config'    => 'Illuminate\Support\Facades\Config',
 		'Event'     => 'Illuminate\Support\Facades\Event',
 		'File'      => 'Illuminate\Support\Facades\File',
+        'Log'       => 'Illuminate\Support\Facades\Log',
 		'Lang'      => 'Illuminate\Support\Facades\Lang',
 	],
 
     'commands' => [
-        //'teste' => 'App\Commands\TesteCommand',
+        'teste' => 'App\Commands\TesteCommand',
     ],
 
 ];

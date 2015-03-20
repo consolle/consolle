@@ -1,0 +1,8 @@
+{
+	"versionMask": "{^[0-9a-f]{40}$}",
+
+    "url": {
+        "version": "http://localhost/versions/version",
+        "download": "http://localhost/versions/downloads"
+    }
+}
